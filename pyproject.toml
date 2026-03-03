@@ -18,11 +18,16 @@ dependencies = [
     "numpy==2.*",
     "omegaconf==2.3.*",
     "onnx==1.19.*",
+    "onnx-asr[cpu,hub]>=0.10.2",
     "onnxruntime==1.23.*",
+    "pyaudio>=0.2.14",
     "sentencepiece",
+    "setuptools==81.0.0",
+    "sounddevice>=0.5.5",
     "torch>=2.5,<2.9",
     "torchaudio>=2.5,<2.9",
     "tqdm",
+    "webrtcvad>=2.0.10",
 ]
 
 [project.optional-dependencies]
